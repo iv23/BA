@@ -105,7 +105,7 @@ router.post('/', function(req, res){
     return res.status(422).json({errors: {domain: "can't be blank"}});
   }
   crawlAndSave(base);
-  return res.status(200).json({result: images});
+  return res.status(200).json({result: "Successful"});
 });
 
 module.exports = router;
