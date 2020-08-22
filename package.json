@@ -1,0 +1,23 @@
+{
+  "name": "ba",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "~1.4.4",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "image-downloader": "^4.0.1",
+    "jade": "~1.11.0",
+    "lodash": "^4.17.20",
+    "morgan": "~1.9.1",
+    "request": "^2.88.2"
+  }
+}
